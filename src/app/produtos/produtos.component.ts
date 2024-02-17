@@ -10,6 +10,5 @@ export class ProdutosComponent implements OnInit {
 
   constructor(private $gaService: GoogleAnalyticsService) { }
   ngOnInit(): void {
-    this.$gaService.pageView('PAGINA DE PRODUTOS')
   }
 }

@@ -9,5 +9,6 @@ import { GoogleAnalyticsService } from 'ngx-google-analytics';
 export class CategoriasComponent implements OnInit {
   constructor(private $gaService: GoogleAnalyticsService) { }
   ngOnInit(): void {
+    this.$gaService.pageView('PAGINA DE CATEGORIAS')
   }
 }
